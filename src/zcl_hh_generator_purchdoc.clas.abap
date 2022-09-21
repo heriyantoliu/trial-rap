@@ -16,6 +16,7 @@ CLASS zcl_hh_generator_purchdoc DEFINITION
       generate_status,
       generate_purch_doc,
       generate_purch_doc_item,
+      generate_xfeld_domain,
       get_timestamp
         RETURNING VALUE(re_timestamp) TYPE timestampl.
 ENDCLASS.
@@ -40,6 +41,8 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
     me->generate_purch_doc( ).
     out->write( 'Generate Purchase Document Item : ZHH_PURCHDOCITEM' ).
     me->generate_purch_doc_item( ).
+    out->write( 'Generate Domain : XFELD' ).
+    me->generate_xfeld_domain( ).
 
   ENDMETHOD.
   METHOD generate_priority.
@@ -1326,6 +1329,23 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
 
   METHOD get_timestamp.
     GET TIME STAMP FIELD re_timestamp.
+  ENDMETHOD.
+
+  METHOD generate_xfeld_domain.
+    data: lt_dd07l type table of zhh_dd07l,
+          lt_dd07t type table of zhh_dd07t.
+
+    lt_dd07l = value #( domname = 'XFELD' as4local = 'A'
+      ( valpos = '1' domvalue_l = 'X' )
+      ( valpos = '2' domvalue_l = '' )
+    ).
+    lt_dd07t = value #( domname = 'XFELD' as4local = 'A' ddlanguage = sy-langu
+      ( valpos = '1' ddtext = 'Yes' )
+      ( valpos = '2' ddtext = 'No' )
+    ).
+
+    insert zhh_dd07l from table @lt_dd07l.
+    insert zhh_dd07t from table @lt_dd07t.
   ENDMETHOD.
 
 ENDCLASS.
