@@ -1,0 +1,5 @@
+CLASS zbp_i_hh_poheader_u DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_hh_poheader_u.
+ENDCLASS.
+
+CLASS zbp_i_hh_poheader_u IMPLEMENTATION.
+ENDCLASS.
