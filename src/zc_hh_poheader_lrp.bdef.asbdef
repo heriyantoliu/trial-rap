@@ -1,0 +1,22 @@
+projection;
+strict ( 2 );
+
+define behavior for zc_hh_poheader_lrp //alias <alias_name>
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Approve_Order;
+  use action Reject_Order;
+
+  use association _PurchaseDocumentItem { create; }
+}
+
+define behavior for zc_hh_poitem_lrp //alias <alias_name>
+{
+  use update;
+  use delete;
+
+  use association _PurchaseDocument;
+}
