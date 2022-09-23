@@ -47,6 +47,8 @@ define view entity zi_hh_poitem as select from zhh_purchdocitem
       
       @Semantics.imageUrl: true
       purchasedocumentitemimageurl as PurchaseDocumentItemImageURL,
+      
+      vendorrating as VendorRating,
 
       // BOPF Admin Data
       crea_date_time,

@@ -16,6 +16,7 @@ define view entity zi_hh_poitem_u
       QuantityUnit,
       OverallItemPrice,
       PurchaseDocumentItemImageURL,
+      VendorRating,
 
       // BOPF Admin Data
       crea_date_time,

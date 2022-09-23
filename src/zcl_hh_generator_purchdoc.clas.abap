@@ -281,6 +281,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -295,6 +296,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR007'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -309,6 +311,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -323,6 +326,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -334,9 +338,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             1000
         currency = 'EUR  '
         quantity =               10
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR009'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -348,9 +353,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             5000
         currency = 'USD  '
         quantity =               35
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -365,6 +371,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -379,6 +386,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -393,6 +401,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -407,6 +416,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -421,6 +431,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR003'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -435,6 +446,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -449,6 +461,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR010'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -460,9 +473,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             1000
         currency = 'EUR  '
         quantity =               50
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -477,6 +491,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -491,6 +506,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR010'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -505,6 +521,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -519,6 +536,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -533,6 +551,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -547,6 +566,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -561,6 +581,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -575,6 +596,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR007'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -586,9 +608,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             2500
         currency = 'EUR  '
         quantity =               50
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -603,6 +626,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -617,6 +641,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR009'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -631,6 +656,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -642,9 +668,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =              500
         currency = 'USD  '
         quantity =               15
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -659,6 +686,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -673,6 +701,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -687,6 +716,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -701,6 +731,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -715,6 +746,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR010'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -729,6 +761,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -743,6 +776,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -757,6 +791,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR010'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -771,6 +806,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -782,9 +818,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =            10000
         currency = 'USD  '
         quantity =               35
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -799,6 +836,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR004'
         vendortype = '3'
+        vendorrating =          3
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -810,9 +848,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =            10000
         currency = 'EUR  '
         quantity =                5
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -827,6 +866,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR007'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -841,6 +881,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -855,6 +896,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -869,6 +911,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR009'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -880,9 +923,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             2000
         currency = 'USD  '
         quantity =                5
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -897,6 +941,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -911,6 +956,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -925,6 +971,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -939,6 +986,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -950,9 +998,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             1500
         currency = 'EUR  '
         quantity =               50
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -967,6 +1016,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -981,6 +1031,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR010'
         vendortype = '2'
+        vendorrating =          1
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -995,6 +1046,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -1006,9 +1058,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             5000
         currency = 'EUR  '
         quantity =               50
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR006'
         vendortype = '1'
+        vendorrating =          2
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -1023,6 +1076,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR007'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -1037,6 +1091,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -1051,6 +1106,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR009'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -1065,6 +1121,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER04      '
         lchg_date_time = get_timestamp( )
@@ -1079,6 +1136,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -1093,6 +1151,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR005'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1107,6 +1166,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1118,9 +1178,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =             1500
         currency = 'USD  '
         quantity =               15
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1135,6 +1196,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR008'
         vendortype = '1'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER03      '
         lchg_date_time = get_timestamp( )
@@ -1149,6 +1211,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -1163,6 +1226,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR009'
         vendortype = '2'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -1177,6 +1241,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -1191,6 +1256,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1205,6 +1271,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'M  '
         vendor = 'VDR001'
         vendortype = '2'
+        vendorrating =          5
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1219,6 +1286,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'KG '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER05      '
         lchg_date_time = get_timestamp( )
@@ -1230,9 +1298,10 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         price =            10000
         currency = 'USD  '
         quantity =               15
-        quantityunit = 'ST'
+        quantityunit = 'PC '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -1247,6 +1316,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1261,6 +1331,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'L  '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER02      '
         lchg_date_time = get_timestamp( )
@@ -1275,6 +1346,7 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
         quantityunit = 'EA '
         vendor = 'VDR002'
         vendortype = '3'
+        vendorrating =          4
         crea_date_time = get_timestamp( )
         crea_uname = 'USER01      '
         lchg_date_time = get_timestamp( )
@@ -1324,7 +1396,9 @@ CLASS zcl_hh_generator_purchdoc IMPLEMENTATION.
       zhh_purchdocsts,
       zhh_purchdoc,
       zhh_purchdocprio,
-      zhh_purchdocitem.
+      zhh_purchdocitem,
+      zhh_dd07l,
+      zhh_dd07t.
   ENDMETHOD.
 
   METHOD get_timestamp.
