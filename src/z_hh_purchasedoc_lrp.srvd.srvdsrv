@@ -1,0 +1,18 @@
+@EndUserText.label: 'Purchase Document List Report'
+define service Z_hh_purchasedoc_lrp {
+  expose zc_hh_poheader_lrp as PurchaseDocument;
+  expose zc_hh_poitem_lrp as PurchaseDocumentItem;
+  expose zI_Indicator as ApprovalRequired;
+  expose I_Currency as Currency;
+  expose I_UnitOfMeasure as QuantityUnitofMeasure;
+  expose zi_hh_vdrtype as VendorType;
+  expose zc_hh_status_vh as StatusVH;
+  expose zc_hh_vdrtype_vh as VendorTypeVH;
+  expose zc_hh_priority_vh as PriorityVH;
+  expose zi_hh_popriority as Priority;
+  expose zi_hh_postatus as Status;
+  expose zi_hh_pooverallprice as PurchDocOveralPrice;
+  expose zi_hh_poheader as PruchasDocumentBase;
+  expose zi_hh_poitem as PurchaseDocumentItemBase;
+  expose zi_hh_purchorg as PurchasingOrganization;
+}

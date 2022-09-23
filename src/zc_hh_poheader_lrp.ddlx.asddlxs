@@ -84,14 +84,15 @@ annotate view zc_hh_poheader_lrp with
      ],
      fieldGroup: [{ qualifier: 'PurchasingDocumentFieldGroup', position: 10, importance: #HIGH }]
   }
- @UI.lineItem: [{ importance: #HIGH, position: 20 }, 
-    { type: #FOR_ACTION, dataAction: 'Approve', position: 10, label: 'Approve'  },
-    { type: #FOR_ACTION, dataAction: 'Reject',  position: 20, label: 'Close' }]
-    @UI: {    
-    identification: [
-    { type: #FOR_ACTION, dataAction: 'Approve', position: 10, importance: #HIGH, label: 'Approve' },
-    { type: #FOR_ACTION, dataAction: 'Reject',  position: 20, importance: #HIGH, label: 'Close' }] 
+  @UI.lineItem: [{ importance: #HIGH, position: 20 }, 
+    { type: #FOR_ACTION, dataAction: 'Approve_Order', position: 10, label: 'Approve'  },
+    { type: #FOR_ACTION, dataAction: 'Reject_Order',  position: 20, label: 'Close' }]    
+ @UI: {    
+    identification: [{ position: 20 },
+    { type: #FOR_ACTION, dataAction: 'Approve_Order', position: 10, importance: #HIGH, label: 'Approve' },
+    { type: #FOR_ACTION, dataAction: 'Reject_Order',  position: 20, importance: #HIGH, label: 'Close' }] 
     }
+  
   PurchaseDocument;
   @UI: {
     fieldGroup: [{ qualifier: 'PurchasingDocumentFieldGroup', position: 20, importance: #HIGH }]
